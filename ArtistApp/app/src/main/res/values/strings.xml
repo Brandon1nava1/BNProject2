@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Artist App</string>
+    <string name="txtSplash">The Mantra House</string>
+    <string name="btBack">Back</string>
+    <string name="btBack2">Back</string>
+    <string name="btLotto">Lottery Probability</string>
+    <string name="btBio">Biography</string>
+    <string name="btAbout">About Us</string>
+    <string name="Description">Lingard</string>
+    <string name="Description2">Close Up</string>
+    <string name="Description3">Back to Main Activity</string>
+    <string name="Description5">Back to Biography</string>
+    <string name="Description4">Side Shot</string>
+    <string name="tvTitle1">Welcome to the Mantra House</string>
+    <string name="tvTitle2">Lotery Probability</string>
+    <string name="tvTitle3">Probability Results</string>
+    <string name="tvTitle4">Biography</string>
+    <string name="tvTitle5">About Us</string>
+    <string name="tvTitle6">Lingard is an artist based in Atlanta and loves to make music. Lingard Graduated form the Los Angeles
+    Film school and continued his studies in Full Sale to become even more proficient to his craft. Now he is helping young talent to come up
+    and to be heard.</string>
+    <string name="tvTitle7">This was made by a student at Epcc from the computer programming degree</string>
+    <string name="tvTitle8">Socials</string>
+</resources>
