@@ -11,14 +11,20 @@
     <string name="Description3">Back to Main Activity</string>
     <string name="Description5">Back to Biography</string>
     <string name="Description4">Side Shot</string>
+    <string name="Description6">Go to Facebook Page</string>
+    <string name="Description7">Go to Instagram Page</string>
+    <string name="Description8">Go to YouTube Page</string>
+    <string name="Description9">Go to Web Page</string>
     <string name="tvTitle1">Welcome to the Mantra House</string>
-    <string name="tvTitle2">Lotery Probability</string>
+    <string name="tvTitle2">Lottery Probability</string>
     <string name="tvTitle3">Probability Results</string>
     <string name="tvTitle4">Biography</string>
     <string name="tvTitle5">About Us</string>
     <string name="tvTitle6">Lingard is an artist based in Atlanta and loves to make music. Lingard Graduated form the Los Angeles
     Film school and continued his studies in Full Sale to become even more proficient to his craft. Now he is helping young talent to come up
     and to be heard.</string>
-    <string name="tvTitle7">This was made by a student at Epcc from the computer programming degree</string>
+    <string name="tvTitle7">Welcome to The House, where every aspect of your sound finds its true home. In the complex world of music creation, artists often juggle multiple collaborations with producers, engineers, and
+        graphic designers to bring their vision to life. At The Mantra House, we simplify that journey by offering a one-stop destination for all your creative needs. Here, you have seamless access to expert guidance and
+        innovative solutions—all under one roof. Let us help you transform your ideas into reality, while you focus on what you do best: MAKING MUSIC.</string>
     <string name="tvTitle8">Socials</string>
 </resources>

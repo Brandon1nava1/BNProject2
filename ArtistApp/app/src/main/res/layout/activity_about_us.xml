@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#91C6FA"
     tools:context=".AboutUsActivity">
 
     <ImageButton
@@ -38,19 +39,22 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="355dp"
-        android:layout_height="89dp"
+        android:layout_width="397dp"
+        android:layout_height="191dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169">
+        app:layout_constraintVertical_bias="0.149">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tvTitle7" />
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:text="@string/tvTitle7"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
     </FrameLayout>
 
     <TextView
@@ -63,8 +67,64 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
+        app:layout_constraintVertical_bias="0.449" />
+
+    <ImageButton
+        android:id="@+id/btFaceBook"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/Description6"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651"
+        app:srcCompat="@drawable/fb" />
+
+    <ImageButton
+        android:id="@+id/btInsta"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/Description7"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649"
+        app:srcCompat="@drawable/ig" />
+
+    <ImageButton
+        android:id="@+id/btYoutube"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/Description8"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        app:srcCompat="@drawable/yt" />
+
+    <ImageButton
+        android:id="@+id/btWeb"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/Description9"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        app:srcCompat="@drawable/www" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

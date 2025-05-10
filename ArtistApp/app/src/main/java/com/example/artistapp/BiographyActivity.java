@@ -23,7 +23,7 @@ public class BiographyActivity extends AppCompatActivity {
         ImageButton btBack = findViewById(R.id.btBack);
         btBack.setOnClickListener(v -> finish());
 
-        //Button to go about us screen
+        //Button to go to about us screen
         Button btAbout = findViewById(R.id.btAbout);
         btAbout.setOnClickListener(v -> {
                     Intent intent = new Intent(BiographyActivity.this, AboutUsActivity.class);
