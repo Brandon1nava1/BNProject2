@@ -15,7 +15,7 @@
         android:text="@string/tvTitle4"
         android:textAlignment="center"
         android:textColor="#9170C8"
-        android:textSize="24sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +38,7 @@
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
     <FrameLayout
+        android:id="@+id/frameLayout2"
         android:layout_width="362dp"
         android:layout_height="125dp"
         android:visibility="visible"
@@ -79,5 +80,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />
+
+    <Button
+        android:id="@+id/btDoubt"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:text="@string/tvTitle9"
+        android:textColor="#CDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/btFirstDate"
+        android:layout_width="175dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF5722"
+        android:text="@string/tvTitle10"
+        android:textColor="#CDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <TextView
+        android:id="@+id/tvSampleMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTitle11"
+        android:textAlignment="center"
+        android:textColor="#9170C8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
