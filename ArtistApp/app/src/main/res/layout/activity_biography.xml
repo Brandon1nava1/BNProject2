@@ -57,16 +57,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="199dp"
-        android:layout_height="398dp"
+        android:layout_width="364dp"
+        android:layout_height="212dp"
         android:contentDescription="@string/Description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543"
-        app:srcCompat="@drawable/lingard" />
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/wideshot" />
 
     <Button
         android:id="@+id/btAbout"
@@ -79,4 +79,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
