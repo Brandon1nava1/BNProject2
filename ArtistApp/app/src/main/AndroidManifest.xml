@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ArtistApp"
         tools:targetApi="31">
         <activity
+            android:name=".Prob_Result_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LottoActivity"
+            android:exported="false" />
+        <activity
             android:name=".AboutUsActivity"
             android:exported="false" />
         <activity

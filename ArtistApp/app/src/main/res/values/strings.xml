@@ -3,9 +3,12 @@
     <string name="txtSplash">The Mantra House</string>
     <string name="btBack">Back</string>
     <string name="btBack2">Back</string>
+    <string name="btBack3">Back</string>
+    <string name="btBack4">Back</string>
     <string name="btLotto">Lottery Probability</string>
     <string name="btBio">Biography</string>
     <string name="btAbout">About Us</string>
+    <string name="btResult">Results</string>
     <string name="Description">Lingard</string>
     <string name="Description2">Close Up</string>
     <string name="Description3">Back to Main Activity</string>
@@ -15,6 +18,14 @@
     <string name="Description7">Go to Instagram Page</string>
     <string name="Description8">Go to YouTube Page</string>
     <string name="Description9">Go to Web Page</string>
+    <string name="Description10">Number of tickets</string>
+    <string name="Description11">If you buy </string>
+    <string name="Description12"> you have a chance to win 2 VIP Tickets</string>
+    <string name="Description13"> chance to win!</string>
+    <string name="Description14">amount of tickets,</string>
+    <string name="tvTickets2">Total Tickets Purchase</string>
+    <string name="tvTickets3">amount needed</string>
+    <string name="tvTickets4">Percentage needed</string>
     <string name="tvTitle1">Welcome to the Mantra House</string>
     <string name="tvTitle2">Lottery Probability</string>
     <string name="tvTitle3">Probability Results</string>
@@ -30,4 +41,7 @@
     <string name="tvTitle9">Play The Doubt Song</string>
     <string name="tvTitle10">Play The First Date Song</string>
     <string name="tvTitle11">Sample Music</string>
+    <string name="tvTitle12">Lottery Probability</string>
+    <string name="tvTitle13">How many tickets did you Purchase?</string>
+    <string name="tvTitle14">Probability Results</string>
 </resources>

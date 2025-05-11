@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 });
 
+        //Button to Lotto Screen
+        Button btLotto = findViewById(R.id.btLotto);
+        btLotto.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, LottoActivity.class);
+            startActivity(intent);
+        });
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

@@ -27,6 +27,7 @@
         android:id="@+id/btBack"
         android:layout_width="48dp"
         android:layout_height="48dp"
+        android:backgroundTint="#91C6FA"
         android:contentDescription="@string/Description3"
         android:text="@string/btBack"
         app:layout_constraintBottom_toBottomOf="parent"

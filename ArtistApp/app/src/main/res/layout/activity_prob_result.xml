@@ -6,126 +6,120 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#91C6FA"
-    tools:context=".AboutUsActivity">
+    tools:context=".Prob_Result_Activity">
 
     <ImageButton
-        android:id="@+id/btBack2"
+        android:id="@+id/btBack4"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:backgroundTint="#91C6FA"
-        android:contentDescription="@string/Description5"
-        android:text="@string/btBack2"
+        android:contentDescription="@string/Description3"
+        android:text="@string/btBack4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@android:drawable/ic_menu_revert" />
 
     <TextView
-        android:id="@+id/tvTitle5"
+        android:id="@+id/tvResults"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvTitle5"
+        android:text="@string/tvTitle14"
         android:textAlignment="center"
+        android:textColor="#9170C8"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
-
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="397dp"
-        android:layout_height="191dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="193dp"
-            android:text="@string/tvTitle7"
-            android:textAlignment="textStart"
-            android:textStyle="bold" />
-    </FrameLayout>
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
-        android:id="@+id/tvTitle8"
+        android:id="@+id/tvText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvTitle8"
+        android:text="@string/Description11"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449" />
-
-    <ImageButton
-        android:id="@+id/btFaceBook"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:contentDescription="@string/Description6"
-        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651"
-        app:srcCompat="@drawable/fb" />
+        app:layout_constraintVertical_bias="0.272" />
 
-    <ImageButton
-        android:id="@+id/btInsta"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:contentDescription="@string/Description7"
-        android:scaleType="fitCenter"
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.649"
-        app:srcCompat="@drawable/ig" />
+        app:layout_constraintVertical_bias="0.272" />
 
-    <ImageButton
-        android:id="@+id/btYoutube"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:contentDescription="@string/Description8"
-        android:scaleType="fitCenter"
+    <TextView
+        android:id="@+id/tvText3"
+        android:layout_width="373dp"
+        android:layout_height="51dp"
+        android:text="@string/Description12"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647"
-        app:srcCompat="@drawable/yt" />
+        app:layout_constraintVertical_bias="0.332" />
 
-    <ImageButton
-        android:id="@+id/btWeb"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:contentDescription="@string/Description9"
-        android:scaleType="fitCenter"
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Description14"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintHorizontal_bias="0.886"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.646"
-        app:srcCompat="@drawable/www" />
+        app:layout_constraintVertical_bias="0.272" />
 
+    <TextView
+        android:id="@+id/tvPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Description13"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
