@@ -1,5 +1,5 @@
 package com.example.artistapp;
-
+// Brandon Nava Project 2
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.TextView;

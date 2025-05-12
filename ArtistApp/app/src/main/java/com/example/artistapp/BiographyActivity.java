@@ -1,5 +1,5 @@
 package com.example.artistapp;
-
+// Brandon Nava Project 2
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
